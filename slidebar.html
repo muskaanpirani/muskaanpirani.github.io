@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>toggle button</title>
+		<style>
+			body
+			{
+				margin:0px;
+				padding:0px;
+			}
+			#sidebar
+			{
+				position:fixed;
+				width:20%;
+				height:100%;
+				left:-20%;
+				background-color: black;
+				transition: left 0.4s ease-in-out;
+			}
+			#sidebar li
+			{
+				color:white;
+				font-size:25px;
+				padding-top: 50px;
+				border-bottom: 1px solid gray;
+				width:200px;
+				text-decoration: none;
+				font-family: Bahnschrift;
+				font-size:20px;
+				color:crimson;
+			}
+
+			.toggle-btn
+			{
+				position:absolute;
+				left:105%;
+				top:15px;
+			}
+
+			.toggle-btn span
+			{
+				display: block;
+				background-color:crimson;
+				width:30px;
+				height:5px;
+				margin:3px;
+			}
+
+			#sidebar.active
+			{
+				left:0%;
+				transition: left 0.4s ease-in-out;
+			}
+		</style>
+		<script>
+			function togglemenu()
+			{
+				document.getElementById("sidebar").classList.toggle('active');
+			}
+		</script>
+	</head>
+	<body>
+		<div id="sidebar" onclick="togglemenu()">
+			<div class="toggle-btn"> <!-- FOR THREE BARS IN TOGGLE BUTTON -->
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		
+		<ul style="list-style-type: none;">
+			<li>Home</li>
+			<li>About</li>
+			<li>Contact Us</li>
+		</ul>
+	</div>
+	</body>
+</html>

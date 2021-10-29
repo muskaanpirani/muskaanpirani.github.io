@@ -1,0 +1,145 @@
+body
+{
+	background-color: black;
+}
+.menu
+{
+	width: 400px;
+	height: 705px;
+	background-color: black;
+	float: left;
+	box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.5);
+}
+.picture
+{
+	width: 1103px;
+	height: 705px;
+	float: left;
+	background-image: url(15.jpg); 
+  animation: animate 50s infinite;
+  background-size: cover;
+}
+/*@keyframes animate
+{
+	0%,100% { background-image: url(Fullmoon.jpg); }
+	10%{ background-image: url(Volcanoes.jpg); }
+	20%{ background-image: url(Skydive.jpg); }
+	30%{ background-image: url(Jefferybay.jpg); }
+	40%{ background-image: url(Watrerrapelling.jpg); }
+	50%{ background-image: url(Bike.jpg); }
+	60%{ background-image: url(Bungee.jpg); }
+	70%{ background-image: url(Cliff.jpg); }
+	80%{ background-image: url(Greatwhitesharks.jpg); }
+	90%{ background-image: url(Komododragons.jpg); }
+}*/
+pre
+{
+	color:beige;
+	font-family: Bahnschrift;
+	font-size:25px;
+	text-align: center;
+}
+.logo
+{
+	height: 100px;
+}
+ul
+{
+	display: inline-block;
+}
+ul li
+{
+	list-style: none;
+	width: 400px;
+	padding-top: 70px;
+	border-bottom: 2px solid orange;
+}
+a
+{
+	text-decoration: none;
+	font-family: Bahnschrift;
+	font-size:20px;
+	color:white;
+	
+}
+footer
+{
+	bottom: 0;
+	background-color: black;
+	float: left;
+	height: 102px;
+	width: 1053px;
+}
+.pre1
+{
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 20pt;
+	font-stretch: ultra-condensed;
+	opacity: 1;
+	padding-top: 0px;
+	padding-left: 50px;
+	transition: inset 0.8s ease-in-out;
+	animation-name: heading;
+	animation-duration: 2s;
+	clip-path: inset(0 0% 0 0);
+	text-align: left;
+}
+.pre1 a
+{
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 35pt;
+	font-stretch: ultra-condensed;
+	opacity: 1;
+}
+a:hover
+{
+	color: orange;
+}
+@keyframes heading
+{
+	from { padding-top: 600px; clip-path: inset(0 100% 0 0); }
+	to { padding-top: 0px; clip-path: inset(0 0% 0 0);}
+}
+
+
+.box
+{
+	height: 80px;
+	width: 40px;
+	background-color: rgba(0,0,0,0.5);
+	transition: width 0.4s ease-in-out;
+	animation-name: heading;
+	animation-duration: 2s;/*
+	clip-path: inset(0 40% 0 0);*/
+	overflow: hidden;
+}
+.box1
+{
+	float: right;
+	height: 80px;
+	width: 40px;
+	background-color: rgba(0,0,0,0.5);
+	transition: width 0.4s ease-in-out;
+	animation-name: heading;
+	animation-duration: 2s;/*
+	clip-path: inset(0 40% 0 0);*/
+	overflow: hidden;
+}
+.box1:hover
+{
+	width: 850px;/*
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;*/
+	box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.5);
+}
+.box:hover
+{
+	width: 850px;/*
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;*/
+	box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.5);
+	/*
+	clip-path: inset(0 0% 0 0);*/
+}

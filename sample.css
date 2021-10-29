@@ -1,0 +1,31 @@
+.open
+{
+	height: 300px;
+	width: 300px;
+	background-color: steelblue;
+}
+.box
+{
+	height: 40px;
+	width: 20px;
+	background-color: crimson;
+	transition: width 0.4s ease-in-out;
+	animation-name: heading;
+	animation-duration: 2s;/*
+	clip-path: inset(0 40% 0 0);*/
+	overflow: hidden;
+}
+span
+{
+
+}
+.box:hover
+{
+	width: 100px;/*
+	clip-path: inset(0 0% 0 0);*/
+}
+/*@keyframes heading
+{
+	from { clip-path: inset(0 100% 0 0); }
+	to { clip-path: inset(0 0% 0 0);}
+}*/

@@ -1,0 +1,138 @@
+body
+{
+	background-image:url(HOME.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.div1
+{
+	height: 50px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 45px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	padding-bottom: 7px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15pt;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	transition: background-color 0.4s ease-in-out;
+}
+a:hover
+{
+	opacity: 0.5;
+	color:black;
+	background-color: white;
+	border-color: black;
+}
+td
+{
+	text-align: center;
+}
+footer
+{
+	bottom: 0;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+	border-radius: 30px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	font-family: Bahnschrift;
+	font-size: 15pt;
+}
+input
+{	border:transparent;
+	width: 400px;
+	padding: 10px 15px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	font-size: 15px;
+	font-family: Bahnschrift;
+	text-align: left;
+	color: orange;
+	font-weight: 300;
+	background-color: rgba(0,0,0,0.7);
+	transition: box-shadow 0.4s ease-in-out;
+	animation: appear 2s ease-in-out;
+}
+input:focus
+{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}
+textarea
+{	border:transparent;
+	width: 400px;
+	padding: 10px 15px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	font-size: 15px;
+	font-family: Bahnschrift;
+	text-align: left;
+	color: orange;
+	font-weight: 300;
+	background-color: rgba(0,0,0,0.7);
+	transition: box-shadow 0.4s ease-in-out;
+	animation: appear 2s ease-in-out;
+}
+textarea:focus
+{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}
+button
+{	border:transparent;
+	width: 85px;
+	padding: 10px 15px;
+	border-radius: 20PX;
+	border:1px solid transparent;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	font-size: 15px;
+	font-family: Bahnschrift;
+	text-align: left;
+	color: orange;
+	font-weight: 300;
+	background-color: rgba(0,0,0,0.7);
+	transition: box-shadow 0.4s ease-in-out;
+	animation: appear 2s ease-in-out;
+}
+button:hover
+{
+	background-color: orange;
+	color:white;
+}
+button:focus
+{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+	border:1px solid black;
+}
+.div4
+{
+	height: 120px;
+}
+@keyframes appear
+{
+	from { background-color: transparent; color: transparent; }
+	to { background-color: rgba(0,0,0,0.7); color:orange; }
+}
