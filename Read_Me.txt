@@ -1,1 +1,1 @@
-Open 'home.html'
+Open 'index.html'
